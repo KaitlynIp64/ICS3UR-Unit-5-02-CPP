@@ -5,9 +5,10 @@
 // This program calculates the area of a triangle
 
 #include <iostream>
+#include <iomanip>
 #include <string>
 
-void Area(int base, int height) {
+void Area(float base, float height) {
     double areaOfTriangle;
 
     // process
@@ -24,7 +25,6 @@ int main() {
     double height;
 
     // input
-    std::cout << "This program calculates the area of a triangle." << std::endl;
     std::cout << "Enter the base of the triangle (cm): ";
     std::cin >> stringBase;
     std::cout << "Enter the height of the triangle (cm): ";
